@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Largura máxima do formulário */
+    width: 100%; /* Largura total do formulário */
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Largura total do campo */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px;
+}
+
+button {
+    background-color: #69181e; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px;
+    border: none;
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px 0 0; /* Margens entre os botões */
+    width: 48%; /* Largura dos botões */
+    transition: background-color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+button:hover {
+    background-color: #69181e; /* Cor de fundo ao passar o mouse */
+}
+
+table {
+    width: 100%; /* Largura total da tabela */
+    border-collapse: collapse; /* Colapso das bordas da tabela */
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra da tabela */
+    background-color: #fff; /* Cor de fundo da tabela */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Borda das células da tabela */
+}
+
+th, td {
+    padding: 10px; /* Preenchimento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+th {
+    background-color: #63b998; /* Cor de fundo do cabeçalho da tabela */
+    color: white; /* Cor do texto do cabeçalho */
+    font-weight: bold; /* Texto em negrito */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo das linhas pares */
+}
+
+tr:hover {
+    background-color: #e9e9e9; 
+}
+
+p {
+    margin-top: 10px; 
+    color: #555; 
+}
